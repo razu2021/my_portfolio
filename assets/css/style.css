@@ -1,0 +1,237 @@
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@700&family=Passions+Conflict&family=Roboto:wght@100;300;400;900&family=Sevillana&family=Tangerine:wght@400;700&display=swap'); 
+
+ /* font-family: 'Open Sans', sans-serif;
+ font-family: 'Oswald', sans-serif;
+ font-family: 'Passions Conflict', cursive;
+ font-family: 'Roboto', sans-serif;
+ font-family: 'Sevillana', cursive;
+ font-family: 'Tangerine', cursive; */
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+
+/* ======================    Common Css start here ======================= */
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    text-transform: capitalize;
+}
+
+a{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: #000;
+}
+ol,ul{
+    font-family: 'Open Sans', sans-serif;
+    list-style-type: none;
+}
+li{
+    font-family: 'Open Sans', sans-serif;
+    list-style-type: none;
+}
+p{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Google Sans', sans-serif;
+}
+
+img{
+    vertical-align: middle;
+}
+
+.section-padding{
+    padding: 70px 0px !important;
+}
+
+
+
+/* =======================  Common Css end here ======================= */
+
+/* ===================    MAIN CSS START HERRE ================ */
+/*--------------------------------------------------------------
+# Top Bar
+--------------------------------------------------------------*/
+#topbar {
+    background: #106eea;
+    height: 40px;
+    font-size: 14px;
+    transition: all 0.5s;
+    color: #fff;
+    padding: 0;
+  }
+  
+  #topbar .contact-info i {
+    font-style: normal;
+    color: #fff;
+  }
+  
+  #topbar .contact-info i a,
+  #topbar .contact-info i span {
+    padding-left: 5px;
+    color: #fff;
+  }
+  
+  #topbar .contact-info i a {
+    line-height: 0;
+    transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  #topbar .contact-info i a:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+  #topbar .social-links a {
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 0;
+    transition: 0.3s;
+    margin-left: 20px;
+  }
+  
+  #topbar .social-links a:hover {
+    color: white;
+  }
+  
+  /*--------------------------------------------------------------
+  # Header
+  --------------------------------------------------------------*/
+ 
+/* ===================    MAIN CSS START HERRE ================ */
+
+/* =======  MAIN MENU CSS START HERE =========== */
+#main-header{
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+    background: #106eea;
+}
+.main-menu ul li {
+    padding: 0px 7px;
+    transition: 0.4s all;
+}
+.main-menu ul li a{
+    color: #000;
+    font-size: 16px;
+    transition: 0.4s all;
+}
+
+.main-menu ul button{
+    color: #000;
+    font-size: 16px;
+    transition: 0.4s all;
+    margin-left: 10px;
+}
+
+.main-menu ul li:hover {
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(38,98,156,1) 5%);
+    transition: 0.4s all;
+    border-radius: 5px;
+}
+.main-menu ul li:hover a{
+    color:#fff;
+    font-size: 16px;
+    transition: 0.4s all;
+}
+.header{
+    position: relative;
+
+}
+.sumbenu{
+    z-index: 1080;
+    min-width: 200px;
+    transition: 1s all ;
+    display: none;
+    color: #000;
+   
+}
+
+.main-menu ul li:hover .sumbenu{
+    display: block;
+    position: absolute;
+    transition: 1s all ;
+}
+.sumbenu ul{
+    width: 200px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    margin: 0;
+    padding: 0;
+    transition: 1s all ;
+    background: rgb(241, 202, 202);
+}
+.sumbenu ul li{
+    display: block;
+    border: none;
+    padding: 10px 15px;
+    border-bottom: 1px dotted #fff;
+    background: #106eea;
+}
+
+.About_service{
+    margin-top: -120px;
+}
+
+.section_over{
+    margin-top: -120px;
+    z-index: 1060 !important;
+}
+/*============================= Index Banner Slider =============== */
+
+/*============================= Index Banner Slider end =============== */
+
+.what_we_do{
+    background-image: url('../images/bg1.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+/* =========  what we do end here ============== */
+.our-causes{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.huminity-content img{
+    height: 250px;
+    width:250px;
+}
+
+
+.index-causes-slider .owl-nav button.owl-next{
+    padding: 0px!important;
+    color: rgb(252, 8, 8);
+    font-size: 60px;
+    text-align: center;
+    bottom: 2%;
+    right: 40%;
+    position: absolute;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 900;
+}
+
+.index-causes-slider .owl-nav button.owl-prev{
+    padding: 0px!important;
+    color: rgb(252, 8, 8);
+    font-size: 60px;
+    text-align: center;
+    bottom: 2%;
+    position: absolute;
+    left: 40%;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 900;
+}
+
+/* donar area css start heer  */
